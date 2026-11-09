@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>سياسة الخصوصية | تطبيق صلاتي — Salati Privacy Policy</title>
+  <style>
+    :root {
+      --primary: #0a2f24;
+      --accent: #1e5a46;
+      --gold: #d4af37;
+      --bg: #f8faf9;
+      --card-bg: #ffffff;
+      --text: #222926;
+      --text-muted: #5a6862;
+      --border: #e2e8e5;
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans Arabic", sans-serif;
+    }
+    body {
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+      padding: 24px 16px;
+    }
+    .container {
+      max-width: 860px;
+      margin: 0 auto;
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 40px 32px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    }
+    header {
+      border-bottom: 2px solid var(--border);
+      padding-bottom: 24px;
+      margin-bottom: 32px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    .badge {
+      display: inline-block;
+      align-self: flex-start;
+      background: #e8f5f0;
+      color: var(--accent);
+      font-weight: 600;
+      font-size: 0.85rem;
+      padding: 4px 12px;
+      border-radius: 20px;
+    }
+    h1 {
+      color: var(--primary);
+      font-size: 2rem;
+      margin-top: 4px;
+    }
+    .meta {
+      color: var(--text-muted);
+      font-size: 0.9rem;
+    }
+    .lang-switcher {
+      margin-top: 12px;
+      display: flex;
+      gap: 12px;
+    }
+    .lang-btn {
+      background: var(--primary);
+      color: #fff;
+      border: none;
+      padding: 8px 16px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 0.9rem;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    .lang-btn.secondary {
+      background: #e8f0ec;
+      color: var(--primary);
+    }
+    h2 {
+      color: var(--accent);
+      font-size: 1.35rem;
+      margin: 28px 0 12px 0;
+      border-right: 4px solid var(--gold);
+      padding-right: 12px;
+    }
+    html[dir="ltr"] h2 {
+      border-right: none;
+      border-left: 4px solid var(--gold);
+      padding-right: 0;
+      padding-left: 12px;
+    }
+    p, li {
+      margin-bottom: 12px;
+      color: var(--text);
+    }
+    ul {
+      margin: 8px 24px 16px 24px;
+    }
+    .highlight-card {
+      background: #f4fbf8;
+      border: 1px solid #c2e8dc;
+      border-radius: 12px;
+      padding: 18px 20px;
+      margin: 20px 0;
+    }
+    .highlight-card strong {
+      color: var(--primary);
+    }
+    footer {
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 1px solid var(--border);
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      text-align: center;
+    }
+    .en-section {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <header>
+    <span class="badge">وثيقة رسمية / Official Document</span>
+    <h1 id="title">سياسة الخصوصية — تطبيق صلاتي</h1>
+    <div class="meta">
+      <strong>اسم التطبيق:</strong> صلاتي (Salati) | <strong>حزمة التطبيق (Package ID):</strong> com.salati.official<br>
+      <strong>تاريخ آخر تحديث:</strong> 9 نوفمبر 2026
+    </div>
+    <div class="lang-switcher">
+      <button class="lang-btn" onclick="setLang('ar')">العربية</button>
+      <button class="lang-btn secondary" onclick="setLang('en')">English</button>
+    </div>
+  </header>
+
+  <!-- ARABIC CONTENT -->
+  <div id="content-ar">
+    <div class="highlight-card">
+      <strong>خلاصة الخصوصية:</strong> تطبيق «صلاتي» مبني على مبدأ الخصوصية أولاً (Privacy-by-Design) وبنية العمل دون اتصال (Offline-First). نحن لا نمتلك خوادم لجمع بياناتك، ولا نطلب إنشاء حساب، ولا نبيع أو نشارك أي بيانات شخصية مع أي جهة خارجية أو شبكات إعلانية على الإطلاق.
+    </div>
+
+    <h2>1. البيانات التي نجمعها وكيفية استخدامها</h2>
+    <p>يعمل التطبيق بشكل رئيسي على معالجة البيانات محلياً داخل جهازك دون إرسالها إلى أي خوادم:</p>
+    <ul>
+      <li><strong>بيانات الموقع الجغرافي (Location Data):</strong> يطلب التطبيق إذن الوصول إلى الموقع التقريبي والدقيق (ACCESS_FINE_LOCATION و ACCESS_COARSE_LOCATION) لغرض واحد فقط: حساب أوقات الصلوات الفلكية وتحديد اتجاه القبلة بدقة بحسب إحداثيات موقعك الحالي. تتم هذه المعالجة لحظياً داخل جهازك فقط ولا يتم تخزين موقعك خارج الجهاز أو ربطه بأي هوية شخصية.</li>
+      <li><strong>المستشعرات الحركية والضوئية (Sensors):</strong> يستخدم التطبيق مستشعر البوصلة (Magnetometer) ومقياس التسارع لإرشادك نحو القبلة، ومستشعر الإضاءة المحيطة فقط لميزة مساعد السهو في الصلاة لحساب السجدات. لا يتم تسجيل أو إرسال أي قراءات خارج الهاتف.</li>
+      <li><strong>الإشعارات وجدول المنبهات (Notifications & Alarms):</strong> يستخدم التطبيق أذونات الإشعارات والمنبهات الدقيقة (SCHEDULE_EXACT_ALARM) لجدولة الأذان والتنبيهات محلياً داخل نظام أندرويد لتعمل في أوقاتها المحددة بدقة.</li>
+    </ul>
+
+    <h2>2. التخزين المحلي والتحكم في البيانات</h2>
+    <p>جميع تفضيلاتك (مثل الإعدادات الفلكية، سجل الصلوات، عداد التسبيح، وآخر موقع تم حفظه) تُخزن محلياً فقط في الذاكرة الداخلية لجهازك (SharedPreferences و SQLite محلي). يُتيح لك التطبيق خيار «حذف كافة البيانات» من شاشة الخصوصية بضغطة زر واحدة لمسح جميع الملفات والإعدادات نهائياً.</p>
+
+    <h2>3. الاتصال بالإنترنت والخدمات الخارجية</h2>
+    <p>التطبيق مصمم ليعمل بكفاءة تامة دون إنترنت (100% Offline). يتم استخدام الاتصال بالشبكة في حالات اختيارية ومحددة فقط دون إرسال أي معرفات شخصية:</p>
+    <ul>
+      <li>تشغيل تلاوات القرآن الكريم بصيغة صوتية عبر روابط موثوقة ومفتوحة المصدر.</li>
+      <li>التحديث التلقائي الدوري لجدول مواقيت المساجد الرسمية (تقويم الأوائل المفتوح).</li>
+      <li>تسمية المنطقة الجغرافية (اسم المدينة أو القضاء) في حال اختيار تفعيل ذلك.</li>
+    </ul>
+
+    <h2>4. الإعلانات والتتبع وأكواد الطرف الثالث</h2>
+    <p>تطبيق «صلاتي» خالٍ تماماً من الإعلانات (No Ads)، ولا يحتوي على أي حزم برمجية للتتبع أو التحليلات التجارية (Zero Trackers / No Analytics SDKs). لا يتم تتبع سلوكك أو مشاركة أي معلومات مع شبكات إعلانية أو وسطاء بيانات.</p>
+
+    <h2>5. خصوصية الأطفال</h2>
+    <p>التطبيق آمن لجميع الفئات العمرية بما في ذلك الأطفال، ولا يجمع أي معلومات تعريفية شخصية من أي مستخدم من أي عمر، ويتوافق مع متطلبات حماية خصوصية الأطفال (COPPA و GDPR).</p>
+
+    <h2>6. التوافق مع إرشادات Huawei AppGallery ومتجر التطبيقات</h2>
+    <p>تتوافق سياسة الخصوصية هذه مع كافة المعايير الصارمة لمتجر Huawei AppGallery ومتطلبات بطاقة الخصوصية (Privacy Label):</p>
+    <ul>
+      <li>نوع البيانات: الموقع الجغرافي (Location).</li>
+      <li>الغرض: وظائف التطبيق الأساسية (App Functionality) — حساب مواقيت الصلاة والقبلة.</li>
+      <li>الربط بالهوية: غير مرتبط بهوية المستخدم (Not linked to user identity).</li>
+      <li>التتبع: لا يُستخدم للتتبع (Not used for tracking).</li>
+    </ul>
+
+    <h2>7. التواصل معنا</h2>
+    <p>إذا كان لديك أي استفسار أو اقتراح بخصوص سياسة الخصوصية هذه، يمكنك التواصل مع فريق التطوير عبر البريد الإلكتروني:<br>
+    <strong>البريد الإلكتروني:</strong> salati.official.app@gmail.com</p>
+  </div>
+
+  <!-- ENGLISH CONTENT -->
+  <div id="content-en" class="en-section">
+    <div class="highlight-card">
+      <strong>Privacy Summary:</strong> Salati is built on a "Privacy-First" and "Offline-First" architecture. We have no servers to store your data, we never require user accounts, and we never sell, track, or share personal data with any third parties or ad networks.
+    </div>
+
+    <h2>1. Information We Process and How It Is Used</h2>
+    <p>Salati operates primarily on-device without sending your data to external servers:</p>
+    <ul>
+      <li><strong>Location Data:</strong> The app requests Approximate and Precise Location permissions (<code>ACCESS_FINE_LOCATION</code> and <code>ACCESS_COARSE_LOCATION</code>) solely to calculate astronomical prayer times and point towards the Qibla (Kaaba) relative to your exact coordinates. All calculations are executed locally on your device and are never transmitted to our servers or linked to your personal identity.</li>
+      <li><strong>Sensors:</strong> The app uses the magnetometer and accelerometer to display the live Qibla compass, and the ambient light sensor strictly for the optional Sujood (prostration) counter during prayer. No sensor data is stored or exported off your device.</li>
+      <li><strong>Notifications and Exact Alarms:</strong> The app uses local notification and exact alarm permissions (<code>SCHEDULE_EXACT_ALARM</code> / <code>USE_EXACT_ALARM</code>) to schedule the Adhan call to prayer reliably at the exact prayer times.</li>
+    </ul>
+
+    <h2>2. Local Storage & Data Control</h2>
+    <p>All your preferences (calculation settings, prayer log, tasbih counter, and offline cache) are stored strictly locally on your device. The app provides a dedicated "Delete All Data" option inside the Privacy Settings, allowing you to wipe all saved records instantly.</p>
+
+    <h2>3. Internet Usage & External Services</h2>
+    <p>The app is fully functional offline. Internet access is only utilized for optional features:</p>
+    <ul>
+      <li>Streaming Holy Quran audio recitations from public CDNs.</li>
+      <li>Optional background weekly timetable updates for verified mosque schedules.</li>
+      <li>Optional reverse-geocoding to display the human-readable city or district name.</li>
+    </ul>
+    <p>None of these requests transmit any personal identifiers or user tracking data.</p>
+
+    <h2>4. Advertising and Tracking</h2>
+    <p>Salati contains <strong>zero advertisements</strong> and <strong>zero commercial tracking SDKs</strong>. We do not use Google AdMob, Facebook Audience Network, or any other third-party tracking or behavioral analytics services.</p>
+
+    <h2>5. Children's Privacy</h2>
+    <p>Our app does not collect personal information from anyone, including children under the age of 13. It complies with COPPA, GDPR, and international child safety regulations.</p>
+
+    <h2>6. Huawei AppGallery Privacy Tag Compliance</h2>
+    <p>In accordance with Huawei AppGallery requirements:</p>
+    <ul>
+      <li><strong>Data Type Collected/Processed:</strong> Location (Precise & Coarse).</li>
+      <li><strong>Purpose:</strong> App Functionality (Calculating prayer times and Qibla direction).</li>
+      <li><strong>Linked to Identity:</strong> No (Not linked to user identity).</li>
+      <li><strong>Tracking:</strong> No (Not used for tracking or advertising).</li>
+    </ul>
+
+    <h2>7. Contact Us</h2>
+    <p>If you have any questions or feedback regarding this Privacy Policy, please contact us at:<br>
+    <strong>Email:</strong> salati.official.app@gmail.com</p>
+  </div>
+
+  <footer>
+    &copy; 2026 Salati (صلاتي). All rights reserved.
+  </footer>
+</div>
+
+<script>
+  function setLang(lang) {
+    const arContent = document.getElementById('content-ar');
+    const enContent = document.getElementById('content-en');
+    const title = document.getElementById('title');
+    const html = document.documentElement;
+
+    if (lang === 'en') {
+      html.setAttribute('lang', 'en');
+      html.setAttribute('dir', 'ltr');
+      arContent.style.display = 'none';
+      enContent.style.display = 'block';
+      title.innerText = 'Privacy Policy — Salati App';
+    } else {
+      html.setAttribute('lang', 'ar');
+      html.setAttribute('dir', 'rtl');
+      arContent.style.display = 'block';
+      enContent.style.display = 'none';
+      title.innerText = 'سياسة الخصوصية — تطبيق صلاتي';
+    }
+  }
+</script>
+
+</body>
+</html>
